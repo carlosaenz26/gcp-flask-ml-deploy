@@ -5,7 +5,7 @@ app =Flask(__name__)
 @app.route('/')
 def hello():
     print ("I am inside hello")
-    return'Helllo World!'
+    return'Helllo World! CD'
 @app.route('/echo/<name>')
 def echo(name):
     print(f"This was placed in the url: new-{name}")
